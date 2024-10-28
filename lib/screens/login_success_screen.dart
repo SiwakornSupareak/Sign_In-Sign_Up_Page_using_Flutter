@@ -56,7 +56,7 @@ class LoginSuccess extends StatelessWidget {
                 onPressed: () {
                   // Navigate to HomePage when pressed
                   Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => HomePage()),
+                    MaterialPageRoute(builder: (context) => const HomePage()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
